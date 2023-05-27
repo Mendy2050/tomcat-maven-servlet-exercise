@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [23/May/2023:14:36:38 +0100] "GET /servletdemo/demo1 HTTP/1.1" 200 - http-bio-8080-exec-1 37
+0:0:0:0:0:0:0:1 - - [23/May/2023:14:36:38 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [23/May/2023:17:41:14 +0100] "GET /servletdemo/demo4 HTTP/1.1" 200 - http-bio-8080-exec-1 50
+0:0:0:0:0:0:0:1 - - [23/May/2023:17:44:59 +0100] "GET /servletdemo/a.html HTTP/1.1" 200 246 http-bio-8080-exec-4 7
+0:0:0:0:0:0:0:1 - - [23/May/2023:17:45:09 +0100] "POST /servletdemo/demo4 HTTP/1.1" 200 - http-bio-8080-exec-6 1

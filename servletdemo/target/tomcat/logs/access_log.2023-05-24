@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [24/May/2023:15:05:46 +0100] "GET /servletdemo/demo2 HTTP/1.1" 200 - http-bio-8080-exec-1 56
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:53:23 +0100] "GET /servletdemo/req2 HTTP/1.1" 200 - http-bio-8080-exec-1 26
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:56:08 +0100] "GET /servletdemo/req.html HTTP/1.1" 200 463 http-bio-8080-exec-1 29
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:56:29 +0100] "GET /servletdemo/req2?username=zhangsan&password=123&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-3 4
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:59:04 +0100] "GET /servletdemo/req2?username=zhangsan&password=123&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-1 29
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:59:28 +0100] "GET /servletdemo/req2?username=zhangsan&password=123&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [24/May/2023:17:59:34 +0100] "GET /servletdemo/req2?username=&password=&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-4 1
+0:0:0:0:0:0:0:1 - - [24/May/2023:18:01:50 +0100] "GET /servletdemo/req2?username=lisi&password=567&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-1 65
+0:0:0:0:0:0:0:1 - - [24/May/2023:18:18:14 +0100] "GET /servletdemo/req2?username=%E5%BC%A0%E4%B8%89&password=werasdf&hobby=1&hobby=2 HTTP/1.1" 200 - http-bio-8080-exec-2 32

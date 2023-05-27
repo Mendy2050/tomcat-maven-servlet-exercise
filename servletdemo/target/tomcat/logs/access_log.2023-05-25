@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [25/May/2023:09:12:29 +0100] "GET /servletdemo/req5 HTTP/1.1" 200 - http-bio-8080-exec-1 29
+127.0.0.1 - - [25/May/2023:09:44:24 +0100] "GET /servletdemo/req5 HTTP/1.1" 200 - http-bio-8080-exec-1 89
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:13:03 +0100] "GET /servletdemo/resp1 HTTP/1.1" 302 - http-bio-8080-exec-1 28
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:13:03 +0100] "GET /servletdemo/resp2 HTTP/1.1" 200 - http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:25:37 +0100] "GET /servletdemo/resp3 HTTP/1.1" 200 3 http-bio-8080-exec-1 60
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:28:27 +0100] "GET /servletdemo/resp3 HTTP/1.1" 200 15 http-bio-8080-exec-1 59
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:28:33 +0100] "GET /servletdemo/resp3 HTTP/1.1" 200 15 http-bio-8080-exec-3 2
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:29:46 +0100] "GET /servletdemo/resp3 HTTP/1.1" 200 15 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [25/May/2023:10:32:39 +0100] "GET /servletdemo/resp3 HTTP/1.1" 200 15 http-bio-8080-exec-1 30
